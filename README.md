@@ -1,5 +1,5 @@
 # Work-day-schedule
-THIS PROJECT 
+This project creates a daily planner for a user to store plans for the day. The planner consists of timeblocks where a user can input plans, which get saved to localStorage, and save them for later.
 
 ## Built With
 
@@ -10,7 +10,7 @@ THIS PROJECT
 ## Deployed Link
 
 * [See Live Site](https://apal96.github.io/code-quiz/)
-![Deployed Website Gif](Jun-29-2021%2023-22-36.gif?raw=true)
+![Deployed Website Gif](https://raw.githubusercontent.com/apal96/Work-day-schedule/main/Jul-01-2021%2023-54-41.gif?raw=true)
 
 ## Authors
 
