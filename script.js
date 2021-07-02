@@ -5,9 +5,14 @@ $("#currentDay").text(moment().format("dddd, MMMM Do, YYYY"));//format day, Mont
 
 
 })
+
 var con = document.querySelector(".container");
 var textBoxInput = document.querySelector(".description");
 var saveButton = document.querySelector(".saveBtn");
+var timeHour = document.querySelector(".hour")
+console.log(timeHour.textContent)
+var currentBlockTime = timeHour.textContent;
+
 
 console.log(con);
 function storeText(){
@@ -21,9 +26,18 @@ function renderText(){
       }
 
 };
+function changeTextBoxColor(){
+    var timeBlock = moment(currentBlockTime).format("HH:mm");
+    console.log(timeBlock);
+
+
+};
 saveButton.addEventListener("click",function(event){
     event.preventDefault();
-    
+    // storeText;
+    // renderText;
+    changeTextBoxColor;
+    console.log("saved")
     
     
 });
